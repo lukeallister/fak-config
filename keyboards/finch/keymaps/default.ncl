@@ -23,7 +23,7 @@ let XXXX = tap.none & hold.none in
 let TTTT = tap.trans & hold.trans in
 
 let BOOT = tap.custom.fak.BOOT in
-#let CW = tap.custom.fak.CWTG in
+let CW = tap.custom.fak.CWTG in
 
 # Tap hold behaviors
 let holdtap_behavior_common = {
@@ -116,7 +116,7 @@ let home = { # homerow mods
     ],
     [ # layer 2
       kc.TAB & mtp.lalt,  TTTT,  TTTT,  TTTT,      kc.N7,  kc.N8,    kc.N9,   mod.lsft & kc.MINS & hr,
-      kc.ESC,  TTTT,  TTTT,  TTTT,      kc.N4,  kc.N5,    kc.N6,   kc.MINS,
+      kc.ESC,  TTTT,  kc.DOT & mtp.lctl, kc.I & mtp.lctl,      kc.N4,  kc.N5,    kc.N6,   kc.MINS,
       TTTT,  TTTT,  TTTT,  TTTT,      kc.N1,  kc.N2,    kc.N3,   kc.ENT,
              TTTT, TTTT, TTTT,     kc.N0, mod.lsft,   TTTT,
 
@@ -132,7 +132,7 @@ let home = { # homerow mods
     [ # layer 3 
       TTTT,  TTTT,  TTTT,  TTTT,      kc.HOME, kc.PGUP, kc.PGDN, kc.END,
       TTTT,  TTTT,  TTTT,  kc.F5,      kc.MINS, kc.EQL, kc.LBRC, kc.RBRC,
-      TTTT,  TTTT,  TTTT,  TTTT,      TTTT,  TTTT, TTTT, TTTT,
+      TTTT,  TTTT,  TTTT,  TTTT,      kc.BSLS,  ks.PIPE, TTTT, TTTT,
              TTTT, TTTT, TTTT,     TTTT, TTTT,   TTTT,
 
       # combo 
@@ -146,8 +146,8 @@ let home = { # homerow mods
     ],
     [ # layer 4
       ks.EXLM,  ks.AT,  ks.HASH,  ks.DLR,     ks.AMPR, ks.ASTR, ks.LPRN, ks.RPRN,
-      kc.DEL,  TTTT,  TTTT,  TTTT,      ks.LPRN, ks.RPRN, ks.LCBR, ks.RCBR,
-      TTTT,  TTTT,  TTTT,  TTTT,      kc.QUOT,  ks.DQUO, TTTT, TTTT,
+      kc.DEL,  TTTT,  TTTT,  kc.CAPS,      ks.LPRN, ks.RPRN, ks.LCBR, ks.RCBR,
+      kc.TAB & mtp.lctl,  TTTT,  TTTT,  TTTT,      kc.QUOT,  ks.DQUO, TTTT, TTTT,
              TTTT, TTTT, TTTT,     TTTT, TTTT,   TTTT,
 
       # combo 
