@@ -106,7 +106,7 @@ let home = { # homerow mods
              TTTT,  TTTT, TTTT,              TTTT, TTTT, TTTT,
 
       # combo 
-      TTTT,
+      kc.PSCR,
       TTTT,
       TTTT,
       TTTT,
@@ -148,7 +148,7 @@ let home = { # homerow mods
       ks.EXLM,  ks.AT,  ks.HASH,  ks.DLR,     ks.AMPR, ks.ASTR, ks.LPRN, ks.RPRN,
       kc.DEL,  TTTT,  TTTT,  kc.CAPS,      ks.LPRN, ks.RPRN, ks.LCBR, ks.RCBR,
       kc.TAB & mtp.lctl,  TTTT,  TTTT,  TTTT,      kc.QUOT,  ks.DQUO, TTTT, TTTT,
-             TTTT, TTTT, TTTT,     TTTT, TTTT,   TTTT,
+             TTTT, TTTT, TTTT,     TTTT, MO 5 & hr,   TTTT,
 
       # combo 
       TTTT,
@@ -156,6 +156,21 @@ let home = { # homerow mods
       TTTT,
       TTTT,
       ks.CIRC,
+      TTTT,
+      TTTT,
+    ],
+    [ # layer 5
+      TTTT,  TTTT,  TTTT,  TTTT,        TTTT,  TTTT,  TTTT,  TTTT,        
+      TTTT,  TTTT,  TTTT,  TTTT,        TTTT,  TTTT,  TTTT,  TTTT,       
+      TTTT,  TTTT,  TTTT,  TTTT,        TTTT,  TTTT,  TTTT,  TTTT,        
+             TTTT,  TTTT, TTTT,         TTTT, TTTT, TTTT,          
+
+      # combo 
+      TTTT,
+      TTTT,
+      TTTT,
+      TTTT,
+      TTTT,
       TTTT,
       TTTT,
     ],
