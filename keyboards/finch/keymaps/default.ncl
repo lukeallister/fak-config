@@ -145,10 +145,10 @@ let home = { # homerow mods
       TTTT,
     ],
     [ # layer 4
-      ks.EXLM,  ks.AT,  ks.HASH,  ks.DLR,     ks.AMPR, ks.ASTR, ks.LPRN, ks.RPRN,
-      kc.DEL,  TTTT,  TTTT,  kc.CAPS,      ks.LPRN, ks.RPRN, ks.LCBR, ks.RCBR,
-      kc.TAB & mtp.lctl,  TTTT,  TTTT,  TTTT,      kc.QUOT,  ks.DQUO, TTTT, TTTT,
-             TTTT, TTTT, TTTT,     TTTT, MO 5 & hr,   TTTT,
+      ks.EXLM,  ks.AT,  ks.HASH,  ks.DLR,         ks.AMPR, ks.ASTR, ks.LPRN, ks.RPRN,
+      kc.DEL,  TTTT,  TTTT,  kc.CAPS,             ks.LPRN, ks.RPRN, ks.LCBR, ks.RCBR,
+      kc.TAB & mtp.lctl, TTTT, TTTT,kc.ESC,     kc.QUOT,  ks.DQUO, TTTT, TTTT,
+                     TTTT, TTTT, TTTT,            MO 5 & hr,  TTTT, TTTT,
 
       # combo 
       TTTT,
@@ -160,9 +160,9 @@ let home = { # homerow mods
       TTTT,
     ],
     [ # layer 5
-      TTTT,  TTTT,  TTTT,  TTTT,        TTTT,  TTTT,  TTTT,  TTTT,        
-      TTTT,  TTTT,  TTTT,  TTTT,        TTTT,  TTTT,  TTTT,  TTTT,       
-      TTTT,  TTTT,  TTTT,  TTTT,        TTTT,  TTTT,  TTTT,  TTTT,        
+      kc.F1,  kc.F2,  kc.F3,  kc.F4,    TTTT,  TTTT,  TTTT,  TTTT,        
+      kc.F5,  kc.F6,  kc.F7, kc.F8,     TTTT,  TTTT,  TTTT,  TTTT,       
+      kc.F9,  kc.F10, kc.F11, kc.F12,   TTTT,  TTTT,  TTTT,  TTTT,        
              TTTT,  TTTT, TTTT,         TTTT, TTTT, TTTT,          
 
       # combo 
