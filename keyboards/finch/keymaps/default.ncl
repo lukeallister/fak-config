@@ -110,8 +110,8 @@ let home = { # homerow mods
       TTTT,
       TTTT,
       TTTT,
-      TTTT,
-      TTTT,
+      kc.GRV,
+      ks.TILD,
       TTTT,
     ],
     [ # layer 2
